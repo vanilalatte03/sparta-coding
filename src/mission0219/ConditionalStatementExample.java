@@ -2,7 +2,7 @@ package mission0219;
 
 import java.util.Scanner;
 
-public class conditionalStatementExample {
+public class ConditionalStatementExample {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
