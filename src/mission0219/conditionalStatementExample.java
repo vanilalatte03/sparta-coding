@@ -30,8 +30,10 @@ public class conditionalStatementExample {
                 System.out.println("운동 효율을 높이는 레시피를 적용했어요.");
                 break;
             case 3:
+                System.out.println("든든한 한 끼를 위한 레시피를 적용했어요.");
+                break;
             case 4:
-                System.out.println("든든한 한 끼 혹은 휴식을 위한 레시피를 적용했어요.");
+                System.out.println("휴식을 위한 레시피를 적용했어요.");
                 break;
         }
     }
