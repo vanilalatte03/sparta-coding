@@ -1,4 +1,4 @@
-package misson0220;
+package mission0220;
 
 public class GradeCalculator {
     public static void main(String[] args) {
