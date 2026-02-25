@@ -20,5 +20,6 @@ public class Main {
         strGBox.printBoxItem("ABC");
         strGBox.printBoxItem(100);
         strGBox.printBoxItem(0.1);
+
     }
 }
