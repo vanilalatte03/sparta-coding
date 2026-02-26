@@ -1,7 +1,6 @@
 package mission0226;
 
-import java.util.Random;
-import java.util.Scanner;
+import java.util.*;
 
 public class RandomNickname {
     private static final String[] Word1 = {"기절초풍", "멋있는", "재미있는"};
