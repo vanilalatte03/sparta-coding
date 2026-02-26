@@ -17,15 +17,15 @@ public class RandomNickname {
     public String createRandomNickname(String name){
         Random random = new Random();
 
-        int firstWord = random.nextInt(word1.length);
-        int secondWord = random.nextInt(word2.length);
-        int thirdWord = random.nextInt(word3.length);
+        int firstIndex = random.nextInt(word1.length);
+        int secondIndex = random.nextInt(word2.length);
+        int thirdIndex = random.nextInt(word3.length);
 
-        String nickName = word1[firstWord] + " "
-                + word2[secondWord] + " "
-                + word3[thirdWord] + " " +
+        String nickName = word1[firstIndex] + " "
+                + word2[secondIndex] + " "
+                + word3[thirdIndex] + " " +
                 name;
 
-        return nickName ;
+        return nickName;
     }
 }
